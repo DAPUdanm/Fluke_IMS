@@ -1,0 +1,13 @@
+[29-Jun-2025 05:29:22 UTC] PHP Warning:  Undefined array key "total%" in C:\wamp64\www\Fluke_IMS\Admin.php on line 136
+[29-Jun-2025 05:29:22 UTC] PHP Stack trace:
+[29-Jun-2025 05:29:22 UTC] PHP   1. {main}() C:\wamp64\www\Fluke_IMS\Admin.php:0
+[07-Sep-2025 10:35:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'fluke_ims.orders' doesn't exist in C:\wamp64\www\Fluke_IMS\Admin.php:154
+Stack trace:
+#0 C:\wamp64\www\Fluke_IMS\Admin.php(154): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\wamp64\www\Fluke_IMS\Admin.php on line 154
+[24-Sep-2025 00:18:25 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'fluke_ims.users' doesn't exist in C:\wamp64\www\Fluke_IMS\Admin.php:257
+Stack trace:
+#0 C:\wamp64\www\Fluke_IMS\Admin.php(257): mysqli->prepare('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\wamp64\www\Fluke_IMS\Admin.php on line 257

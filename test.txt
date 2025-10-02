@@ -1,0 +1,311 @@
+<!-- -------------------- main page -------------------- -->
+    <div id="order-management" class="content-section">
+      <div id="order_main_page">
+        <h1 class="titlecenter">Order Management</h1>
+
+        <div class="oder_main">
+          <div class="order_button">
+            <img src="images/company.png" alt="" class="btn_img">
+            <a href="#" onclick="showOrderSection('company_order_page', 'order_main_page')">Make Proposal</a>
+          </div>
+          <div class="order_button">
+            <img src="images/customer.png" alt="" class="btn_img">
+            <a href="#" onclick="showOrderSection('customer_order_page', 'order_main_page')">Make Order</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- -------------------- order page -------------------- -->
+      <div id="customer_order_page" class="order-subsection" style="display: none;">
+        <div class="order-header-btn">
+          <h1>Order Management</h1>
+          <button class="btom" onclick="showOrderSection('order_main_page', 'customer_order_page')">Back to Main</button>
+        </div>
+        <!-- <h2 class="titlecenter" style="color: #ff8700;">Customer Order</h2> -->
+        <div class="order-management">
+          <div class="top-bar">
+            <input type="text" placeholder="Search Order..." class="search-bar" />
+            <button class="add-product-btn" onclick="openCustOrderCreste()">Create New Order</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- //////////////////////////////////////////////////// create order pop model //////////////////////////////////////////////////// -->
+      <div id="create-cust-pop" class="modal">
+        <div class="modal-content">
+          <span class="close-btn" onclick="closeCustcreatePopup()">&times;</span>
+          <div class="h3box">Create New Order</div>
+
+
+          <div class="input-group">
+            <label>Customer Name:</label>
+            <input type="text" id="customerName" required />
+          </div>
+
+          <div class="input-group">
+            <label>Order Date:</label>
+            <input type="date" id="orderDate" required />
+          </div>
+
+          <div class="input-group">
+            <label>Product:</label>
+            <select id="productSelect" required>
+              <option value="">Select Product</option>
+              <!-- Add PHP to populate products -->
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label>Quantity:</label>
+            <input type="number" id="orderQuantity" min="1" required />
+          </div>
+          <button onclick="createCustorder()" class="submit-btnbox">Create Order</button>
+          <button onclick="closeCustcreatePopup()" class="cancel-btnbox">Cancel</button>
+        </div>
+      </div>
+
+
+
+      <!-- -------------------- company order main page -------------------- -->
+      <!-- <div id="company_order_page" class="order-subsection" style="display: none;">
+        <div class="order-header-btn">
+          <h1>Order Management</h1>
+          <button class="btom" onclick="showOrderSection('order_main_page', 'company_order_page')">Back to Main</button>
+        </div>
+        <h2 class="titlecenter" style="color:#ff8700;">Company Order</h2>
+        <div class="oder_main">
+          <div class="order_button">
+            <img src="images/company.png" alt="" class="btn_img">
+            <a href="#" onclick="showOrderSection('company_order_main_page','company_order_page')">Company Orders</a>
+          </div>
+          <div class="order_button">
+            <img src="images/proposal.png" alt="" class="btn_img">
+            <a href="#" onclick="showOrderSection('proposal_main_page','company_order_page')">Estimate & Quotation</a>
+          </div>
+        </div>
+      </div> -->
+
+
+
+      <!-- -------------------- company order page -------------------- -->
+      <!-- <div id="company_order_main_page" class="order-subsection" style="display: none;">
+        <div class="order-header-btn">
+          <h1>Order Management</h1>
+          <button class="btom" onclick="showOrderSection('company_order_page', 'company_order_main_page')">Back to Company page</button>
+        </div>
+        <h2 class="titlecenter" style="color: #ff8700;">Company Order</h2>
+        <div class="testcss">
+          <h1>test area</h1>
+        </div>
+        <div class="order-management">
+          <div class="top-bar">
+            <input type="text" placeholder="Search Order..." class="search-bar" />
+            <button class="add-product-btn" onclick="openCustOrderCreste()">Create New Order</button>
+          </div>
+        </div>
+      </div> -->
+
+
+      <!-- //////////////////////////////////////////////////// create company order pop model //////////////////////////////////////////////////// -->
+      <!-- <div id="create-comp-pop" class="modal">
+        <div class="modal-content">
+          <span class="close-btn" onclick="closeCompcreatePopup()">&times;</span>
+          <div class="h3box">Create New Order</div>
+
+
+          <div class="input-group">
+            <label>Customer Name:</label>
+            <input type="text" id="customerName" required />
+          </div>
+
+          <div class="input-group">
+            <label>Order Date:</label>
+            <input type="date" id="orderDate" required />
+          </div>
+
+          <div class="input-group">
+            <label>Product:</label>
+            <select id="productSelect" required>
+              <option value="">Select Product</option>
+              
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label>Quantity:</label>
+            <input type="number" id="orderQuantity" min="1" required />
+          </div>
+          <button onclick="createComporder()" class="submit-btnbox">Create Order</button>
+          <button onclick="closeCompcreatePopup()" class="cancel-btnbox">Cancel</button>
+        </div>
+      </div> -->
+
+
+
+      <!-- -------------------- Proposal page -------------------- -->
+      <div id="proposal_main_page" class="order-subsection" style="display: none;">
+        <div class="order-header-btn">
+          <h1>Order Management</h1>
+          <button class="btom" onclick="showOrderSection('company_order_page', 'proposal_main_page')">Back to Company page</button>
+        </div>
+        <h2 class="titlecenter" style="color: #ff8700;">Make a Proposal</h2>
+        <div class="order-management">
+          <div class="top-bar">
+            <input type="text" placeholder="Search Order..." class="search-bar" />
+            <button class="add-product-btn" onclick="openProposalCreate()">Create New Proposal</button>
+          </div>
+          <table class="order-table">
+            <thead>
+              <tr>
+                <th>Porposal ID</th>
+                <th>Customer Name</th>
+                <th>Products</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="proposal-table-body">
+              <?php
+              include 'dbconnection.php';
+              include 'proposal_functions.php';
+              $query = "SELECT * FROM proposals";
+              $result = $conn->query($query);
+              if ($result->num_rows == 0) {
+                echo "<tr><td colspan='4'>No proposals found.</td></tr>";
+                echo "alert('No proposals found.')";
+              }
+
+              while ($row = $result->fetch_assoc()) {
+                echo "<tr>";
+                echo "<td>" . $row['proposal_id'] . "</td>";
+                echo "<td>" . $row['customer_name'] . "</td>";
+                echo "<td>" . $row['product'] . "</td>";
+                echo "<td>
+                <button onclick=\"viewProposal('" . $row['proposal_id'] . "')\"class=\"view-btn\">View</button>
+                <button onclick=\"editProposal('" . $row['proposal_id'] . "')\" class=\"edit-btn\">Modify</button>
+                <button onclick=\"downloadProposal('" . $row['proposal_id'] . "')\" class=\"download-btn\">Download</button>
+              </td>";
+                echo "</tr>";
+              }
+              ?>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- //////////////////////////////////////////////////// Download PDF //////////////////////////////////////////////////// -->
+      <?php
+      require('fpdf.php');
+
+      if (isset($_GET['proposalID'])) {
+        include 'dbconnection.php';
+        $proposalID = $_GET['proposalID'];
+        $query = "SELECT * FROM proposals WHERE proposal_id = '$proposalID'";
+        $result = $conn->query($query);
+        $proposal = $result->fetch_assoc();
+
+        $pdf = new FPDF();
+        $pdf->AddPage();
+        $pdf->SetFont('Arial', 'B', 16);
+        $pdf->Cell(40, 10, 'Proposal ID: ' . $proposal['proposal_id']);
+        // Add more fields as needed
+        $pdf->Output();
+      }
+      ?>
+
+      <!-- //////////////////////////////////////////////////// create proposal pop model //////////////////////////////////////////////////// -->
+      <div id="create-proposal-pop" class="modal">
+        <div class="modal-content">
+          <span class="close-btn" onclick="closeProposalCreate()">&times;</span>
+          <div class="h3box">Estimate / Quote Form</div>
+
+          <div class="input-group">
+            <label>Proposal ID:</label>
+            <input type="text" id="proposalid" value="<?php echo generateProposalID(); ?>" readonly />
+          </div>
+
+          <div class="input-group">
+            <label>Date of Issued:</label>
+            <input type="date" id="dateofissued" required />
+          </div>
+
+          <div class="input-group">
+            <label>Customer name:</label>
+            <input type="text" id="proposalcustname" required />
+          </div>
+
+          <div class="input-group">
+            <label>Customer Address:</label>
+            <input type="text" id="proposalcustaddr" placeholder="only if necessary" />
+          </div>
+
+          <div class="input-group">
+            <label>Contact Number:</label>
+            <input type="number" id="proposalcustnumber" placeholder="only if necessary" />
+          </div>
+
+          <div class="input-group">
+            <label>Product:</label>
+            <select id="proposalproductselect" required>
+              <option>select item</option>
+              <?php
+              include 'dbconnection.php'; // Ensure the database connection is included
+              $query = "SELECT id, product_name FROM inventory";
+              $result = $conn->query($query);
+
+              if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                  echo "<option value='" . $row['id'] . "'>" . $row['product_name'] . "</option>";
+                }
+              } else {
+                echo "<option value=''>No products available</option>";
+              }
+              ?>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label>Quntity:</label>
+            <input type="number" id="proposalqut" required />
+          </div>
+
+          <div class="input-group">
+            <label>Unit Price:</label>
+            <input type="number" id="propounitprice" placeholder="Auto-generated" disabled />
+            <!-- Price per unit of selected product. -->
+          </div>
+
+          <div class="input-group">
+            <label>Estimated Total:</label>
+            <input type="text" id="proposalestitotal" placeholder="Auto-calculated" disabled />
+          </div>
+
+          <div class="input-group">
+            <label>Validity Date:</label>
+            <input type="date" id="proposalvalidate" required />
+          </div>
+
+          <div class="input-group">
+            <label>Terms & Conditions:</label>
+            <!-- <input type="Text area" id="proposalterms" required /> -->
+            <textarea id="proposalterms" style="width: 100%; height: 100px; resize: vertical;"></textarea>
+          </div>
+          <button onclick="createComp_proposal()" class="submit-btnbox">Create Proposal</button>
+          <button onclick="closeProposalCreate()" class="cancel-btnbox">Cancel</button>
+        </div>
+      </div>
+
+
+      <!-- //////////////////////////////////////////////////// modify Orders////////////////////////////////////////////////-->
+
+
+
+
+
+      <!-- //////////////////////////////////////////////////// Cancel Orders////////////////////////////////////////////////-->
+
+
+
+
+
+
+    </div>

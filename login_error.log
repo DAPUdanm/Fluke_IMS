@@ -1,0 +1,92 @@
+[28-Jun-2025 07:52:46 UTC] Redirecting to Admin.php for user_id: 31
+[28-Jun-2025 07:57:26 UTC] Redirecting to Admin.php for user_id: 31
+[28-Jun-2025 08:02:52 UTC] Redirecting to Admin.php for user_id: 31
+[28-Jun-2025 08:11:07 UTC] Redirecting to Admin.php for user_id: 31
+[28-Jun-2025 08:11:27 UTC] Redirecting to Admin.php for user_id: 31
+[28-Jun-2025 09:59:53 UTC] Redirecting to Admin.php for user_id: 31
+[28-Jun-2025 10:01:38 UTC] Redirecting to Admin.php for user_id: 31
+[28-Jun-2025 10:05:21 UTC] Redirecting to Admin.php for user_id: 31
+[28-Jun-2025 10:06:45 UTC] Redirecting to user.php for user_id: 32
+[28-Jun-2025 10:07:46 UTC] Redirecting to Admin.php for user_id: 31
+[28-Jun-2025 10:08:21 UTC] Redirecting to Admin.php for user_id: 31
+[28-Jun-2025 10:09:17 UTC] Redirecting to user.php for user_id: 33
+[28-Jun-2025 10:10:28 UTC] Redirecting to Admin.php for user_id: 33
+[28-Jun-2025 10:11:35 UTC] Redirecting to user.php for user_id: 32
+[28-Jun-2025 10:35:19 UTC] Redirecting to user.php for user_id: 34
+[28-Jun-2025 10:35:32 UTC] Redirecting to user.php for user_id: 34
+[28-Jun-2025 10:36:37 UTC] Redirecting to Admin.php for user_id: 34
+[28-Jun-2025 10:45:23 UTC] Redirecting to user.php for user_id: 35
+[28-Jun-2025 10:55:37 UTC] Redirecting to Admin.php for user_id: 34
+[28-Jun-2025 13:29:30 UTC] Redirecting to Admin.php for user_id: 34
+[29-Jun-2025 05:28:34 UTC] Redirecting to Admin.php for user_id: 34
+[08-Aug-2025 10:32:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'fluke_ims' in C:\wamp64\www\Fluke_IMS\dbconnection.php:8
+Stack trace:
+#0 C:\wamp64\www\Fluke_IMS\dbconnection.php(8): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'fluke_ims')
+#1 C:\wamp64\www\Fluke_IMS\Login.php(7): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\Fluke_IMS\dbconnection.php on line 8
+[07-Sep-2025 10:35:51 UTC] Redirecting to Admin.php for user_id: 21
+[07-Sep-2025 15:29:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'fluke_ims' in C:\wamp64\www\Fluke_IMS\dbconnection.php:8
+Stack trace:
+#0 C:\wamp64\www\Fluke_IMS\dbconnection.php(8): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'fluke_ims')
+#1 C:\wamp64\www\Fluke_IMS\Login.php(7): include('C:\\wamp64\\www\\F...')
+#2 {main}
+  thrown in C:\wamp64\www\Fluke_IMS\dbconnection.php on line 8
+[07-Sep-2025 15:33:15 UTC] Redirecting to Admin.php for user_id: 25
+[07-Sep-2025 15:35:13 UTC] Redirecting to user.php for user_id: 28
+[07-Sep-2025 15:35:59 UTC] Redirecting to Admin.php for user_id: 28
+[16-Sep-2025 07:39:13 UTC] Redirecting to Admin.php for user_id: 28
+[18-Sep-2025 06:44:22 UTC] Redirecting to Admin.php for user_id: 25
+[18-Sep-2025 09:08:39 UTC] Redirecting to Admin.php for user_id: 25
+[18-Sep-2025 11:16:01 UTC] Redirecting to Admin.php for user_id: 25
+[18-Sep-2025 11:55:20 UTC] Redirecting to user.php for user_id: 29
+[19-Sep-2025 10:23:18 UTC] Redirecting to Admin.php for user_id: 25
+[19-Sep-2025 12:13:27 UTC] Redirecting to Admin.php for user_id: 25
+[19-Sep-2025 12:56:19 UTC] Redirecting to Admin.php for user_id: 25
+[19-Sep-2025 12:57:15 UTC] Redirecting to Admin.php for user_id: 25
+[19-Sep-2025 13:01:13 UTC] Redirecting to user.php for user_id: 29
+[19-Sep-2025 15:18:41 UTC] Redirecting to Admin.php for user_id: 25
+[19-Sep-2025 15:19:31 UTC] Redirecting to user.php for user_id: 29
+[19-Sep-2025 17:18:51 UTC] Redirecting to Admin.php for user_id: 25
+[19-Sep-2025 17:19:08 UTC] Redirecting to Admin.php for user_id: 25
+[19-Sep-2025 17:24:31 UTC] Redirecting to user.php for user_id: 29
+[19-Sep-2025 18:37:11 UTC] Redirecting to Admin.php for user_id: 25
+[19-Sep-2025 18:51:24 UTC] Redirecting to user.php for user_id: 29
+[20-Sep-2025 05:31:00 UTC] Redirecting to Admin.php for user_id: 25
+[20-Sep-2025 05:36:46 UTC] Redirecting to user.php for user_id: 29
+[20-Sep-2025 12:20:48 UTC] Redirecting to Admin.php for user_id: 25
+[20-Sep-2025 13:18:48 UTC] Redirecting to Admin.php for user_id: 25
+[20-Sep-2025 14:13:14 UTC] Redirecting to Admin.php for user_id: 25
+[22-Sep-2025 10:24:10 UTC] Redirecting to Admin.php for user_id: 25
+[22-Sep-2025 13:04:11 UTC] Redirecting to Admin.php for user_id: 25
+[22-Sep-2025 13:06:05 UTC] Redirecting to user.php for user_id: 29
+[22-Sep-2025 13:06:28 UTC] Redirecting to Admin.php for user_id: 25
+[23-Sep-2025 07:24:07 UTC] Redirecting to Admin.php for user_id: 25
+[23-Sep-2025 13:37:20 UTC] Redirecting to Admin.php for user_id: 25
+[23-Sep-2025 15:59:27 UTC] Redirecting to Admin.php for user_id: 25
+[23-Sep-2025 17:41:06 UTC] Redirecting to Admin.php for user_id: 25
+[23-Sep-2025 18:41:01 UTC] Redirecting to Admin.php for user_id: 25
+[23-Sep-2025 19:46:25 UTC] Redirecting to Admin.php for user_id: 25
+[24-Sep-2025 04:11:01 UTC] Redirecting to Admin.php for user_id: 25
+[24-Sep-2025 04:34:52 UTC] Redirecting to Admin.php for user_id: 29
+[24-Sep-2025 04:35:25 UTC] Redirecting to user.php for user_id: 29
+[24-Sep-2025 04:44:52 UTC] Redirecting to Admin.php for user_id: 25
+[24-Sep-2025 05:42:10 UTC] Redirecting to Admin.php for user_id: 25
+[24-Sep-2025 05:42:45 UTC] Redirecting to user.php for user_id: 29
+[24-Sep-2025 06:05:56 UTC] Redirecting to user.php for user_id: 29
+[24-Sep-2025 06:39:50 UTC] Redirecting to user.php for user_id: 29
+[24-Sep-2025 06:42:36 UTC] Redirecting to Admin.php for user_id: 25
+[24-Sep-2025 06:49:36 UTC] Redirecting to user.php for user_id: 29
+[24-Sep-2025 08:16:30 UTC] Redirecting to Admin.php for user_id: 25
+[24-Sep-2025 10:23:25 UTC] Redirecting to Admin.php for user_id: 25
+[24-Sep-2025 11:20:06 UTC] Redirecting to Admin.php for user_id: 25
+[24-Sep-2025 12:51:17 UTC] Redirecting to Admin.php for user_id: 25
+[25-Sep-2025 13:51:07 UTC] Redirecting to user.php for user_id: 29
+[25-Sep-2025 13:52:59 UTC] Redirecting to Admin.php for user_id: 25
+[27-Sep-2025 14:16:04 UTC] Redirecting to Admin.php for user_id: 25
+[27-Sep-2025 14:31:27 UTC] Redirecting to Admin.php for user_id: 25
+[27-Sep-2025 14:37:19 UTC] Redirecting to user.php for user_id: 29
+[27-Sep-2025 14:55:31 UTC] Redirecting to Admin.php for user_id: 25
+[30-Sep-2025 18:25:39 UTC] Redirecting to Admin.php for user_id: 25
+[01-Oct-2025 07:22:31 UTC] Redirecting to Admin.php for user_id: 25
+[02-Oct-2025 17:32:49 UTC] Redirecting to Admin.php for user_id: 25

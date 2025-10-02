@@ -1,0 +1,36 @@
+2025-06-08 08:00:05 - Received POST request: {
+    "productName": "test product",
+    "quantity": "10",
+    "price": "799",
+    "category": "Peripheral Device"
+}
+2025-06-08 08:00:05 - Raw POST data: 
+2025-06-08 08:06:35 - Received POST request: {
+    "productName": "test product",
+    "quantity": "10",
+    "price": "799",
+    "category": "Peripheral Device"
+}
+2025-06-08 08:06:35 - Raw POST data: 
+2025-06-08 08:06:44 - Received POST request: {
+    "productName": "test product",
+    "quantity": "10",
+    "price": "799",
+    "category": "Peripheral Device"
+}
+2025-06-08 08:06:44 - Raw POST data: 
+2025-06-08 08:08:01 - Received POST request: {
+    "productName": "test product",
+    "quantity": "10",
+    "price": "799",
+    "category": "Peripheral Device"
+}
+2025-06-08 08:08:01 - Raw POST data: 
+2025-06-08 08:08:28 - Received POST request: {
+    "productName": "test product",
+    "quantity": "10",
+    "price": "799",
+    "category": "Peripheral Device"
+}
+2025-06-08 08:08:28 - Raw POST data: 
+2025-06-08 08:43:05 - Unknown column 'added_by' in 'field list'
