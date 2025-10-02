@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  /* margin: 50px 300px; */
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  text-align: start;
+  margin-bottom: 50px;
+}
+.header img{
+  width: 250px;
+  margin-left: 20px;
+}
+.Company-details {
+  display: flex;
+}
+input {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  /* background-color: antiquewhite; */
+}
+.date-table-body input{
+  width: 100px;
+  padding: 5px 25px;
+  margin: 0;
+}
+.proposal{
+  margin-top: 20px;
+  font-weight: 600;
+  color: #ff8700;
+}
+#proposalID{
+  border: 1px solid #000;
+}
+.fromaddress{
+  margin: 0 0;
+  line-height: 1.5;
+  margin-right: 150px;
+}
+.Customer-details{
+  display: flex;
+  margin-bottom: 20px;
+}
+.toaddress input{
+  width: 250px;
+}
+.toaddress h4{
+  color: white;
+  background-color: #ff8700;
+  width: 250px;
+  padding: 8px;
+  margin-right: 150px;
+}
+.Customer-details table{
+  margin-top: 20px;
+  height: 50px;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  /* border: 1px solid #000; */
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #ff8700;
+  color: white;
+  font-weight: bold;
+}
+
+.left-align {
+  text-align: left;
+}
+
+tfoot td {
+  border: none;
+}
+
+.italic-text {
+  font-style: italic;
+  text-align: left;
+}
+
+.bold-text {
+  font-weight: bold;
+  text-align: center;
+}
+.bold-text input{
+  width: 100px;
+  padding: 5px 25px;
+  margin: 0;
+}
+.termscondition{
+  margin-top: 50px 0;
+}
+.termscondition textarea{
+  width: 100%;
+  margin: 0;
+  border: none;
+}
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+.br{
+  margin-top: 20px;
+}

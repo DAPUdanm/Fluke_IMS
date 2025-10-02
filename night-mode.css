@@ -1,0 +1,79 @@
+/* Night mode styles */
+body.night-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.night-mode .sidebar {
+  background-color: #2d2d2d;
+  border-right: 1px solid #404040;
+}
+
+.night-mode .main-content {
+  background-color: #1a1a1a;
+}
+
+.night-mode table {
+  background-color: #2d2d2d;
+  color: #ffffff;
+}
+
+.night-mode th {
+  background-color: #404040;
+  color: #ffffff;
+}
+
+.night-mode tr:nth-child(even) {
+  background-color: #333333;
+}
+
+.night-mode .modal-content {
+  background-color: #2d2d2d;
+  color: #ffffff;
+}
+
+.night-mode input, 
+.night-mode select, 
+.night-mode textarea {
+  background-color: #404040;
+  color: #ffffff;
+  border: 1px solid #555555;
+}
+
+.night-mode .card {
+  background-color: #2d2d2d;
+  border: 1px solid #404040;
+}
+
+.night-mode button {
+  background-color: #404040;
+  color: #ffffff;
+}
+
+/* Night mode toggle button styles */
+.night-mode-toggle {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#nightModeBtn {
+  background-color: #404040;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 auto;
+}
+
+#nightModeBtn:hover {
+  background-color: #555555;
+}
+
+.night-mode #nightModeBtn {
+  background-color: #666666;
+}
